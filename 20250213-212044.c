@@ -109,6 +109,7 @@
        printf("\t1 - registrar nomes\n");
        printf("\t2 - consultar nomes\n");
        printf("\t3 - deletar nomes\n");
+       printf("\t4 - sair do sistema\n");
        printf("opcao:"); //fim do menu 
        
        scanf("%d" , &opcao); // armazenando a escolha do usuário 
@@ -129,8 +130,8 @@
        break;
        
        case 4:
-       printf("saindo do programa...\n");
-       laco = 0; //altera a condição do loop para sair
+       printf("obrigado por usar o sistema\n");
+       return = 0; //altera a condição do loop para sair
        break;
        
        default:
